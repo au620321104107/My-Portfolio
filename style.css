@@ -1,0 +1,73 @@
+
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.contact-info, .profile, .skills, .education, .projects, .languages, .internship, .certifications {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  background: #e4e4e4;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+p, li {
+  font-size: 1em;
+  color: #555;
+}
+
+.contact-info p, .languages p {
+  font-size: 1em;
+  margin: 5px 0;
+}
